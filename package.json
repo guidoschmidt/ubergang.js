@@ -1,0 +1,19 @@
+{
+  "name": "transistor",
+  "version": "0.0.1",
+  "description": "Smooth site transitions for static html pages using javascript & CSS",
+  "main": "lib/transistor.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guido Schmidt <git@guidoschmidt.cc>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2"
+  }
+}
