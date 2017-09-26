@@ -1,13 +1,12 @@
 {
-  "name": "transistor",
+  "name": "ubergang.js",
   "version": "0.0.1",
   "description": "Smooth site transitions for static html pages using javascript & CSS",
-  "main": "lib/transistor.js",
+  "main": "lib/ubergang.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Guido Schmidt <git@guidoschmidt.cc>",
   "license": "ISC",
