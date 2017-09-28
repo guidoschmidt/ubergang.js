@@ -1,6 +1,6 @@
 {
   "name": "ubergang.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Smooth site transitions for static html pages using javascript & CSS",
   "main": "lib/ubergang.js",
   "directories": {
@@ -10,7 +10,7 @@
     "build": "./node_modules/.bin/rollup --config rollup.config.js"
   },
   "author": "Guido Schmidt <git@guidoschmidt.cc>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-preset-env": "^1.6.0",
     "rollup": "^0.50.0",
