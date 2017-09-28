@@ -1,0 +1,21 @@
+{
+  "name": "ubergang.js",
+  "version": "0.0.1",
+  "description": "Smooth site transitions for static html pages using javascript & CSS",
+  "main": "lib/ubergang.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/rollup --config rollup.config.js"
+  },
+  "author": "Guido Schmidt <git@guidoschmidt.cc>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-uglify": "^2.0.1",
+    "uglify-es": "^3.1.2"
+  }
+}
