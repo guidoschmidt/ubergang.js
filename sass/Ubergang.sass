@@ -12,11 +12,11 @@
 
 .transition
   opacity: 0.0
-  animation: fadeIn 250ms 200ms ease
+  animation: fadeIn 200ms ease
   animation-fill-mode: forwards
   &.out
-    animation: fadeOut 250ms 0ms ease
-    animation-fill-mode: forwards
+    opacity: 1.0
+    animation: fadeOut 600ms ease
 
 html
   width: 100%

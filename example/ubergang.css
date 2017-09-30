@@ -10,11 +10,11 @@
     opacity: 0; } }
 .transition {
   opacity: 0;
-  animation: fadeIn 250ms 200ms ease;
+  animation: fadeIn 200ms ease;
   animation-fill-mode: forwards; }
   .transition.out {
-    animation: fadeOut 250ms 0ms ease;
-    animation-fill-mode: forwards; }
+    opacity: 1;
+    animation: fadeOut 600ms ease; }
 
 html {
   width: 100%;
@@ -43,5 +43,3 @@ body {
   body.page-a {
     font-family: Vollkorn, serif;
     color: #223EF6; }
-
-/*# sourceMappingURL=ubergang.css.map */
